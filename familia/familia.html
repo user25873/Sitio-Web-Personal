@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Familia</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="familia-styles.css">
+</head>
+
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">Página Web Personal</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul id="barra-navegacion" class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-evenly">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Presentación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Familia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Amigos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Estudios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Formulario de Contacto</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button id="boton-busqueda" class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container bg-light">
+        <h1 class="display-1 text-center">Mi Familia</h1>
+        <div class="row mt-3 align-items-center">
+            <div class="col-12 col-md-6 g-3">
+                <img src="img-familia/familia.webp" class="rounded img-fluid" alt="Familia de Bill Gates">
+            </div>
+            <div class="col-12 col-md-6 g-3">
+                <img src="img-familia/familia2.jpg" class="rounded img-fluid" alt="Familia de Bill Gates">
+            </div>
+        </div>
+        <div class="row">
+            <div class="seccion-esposa">
+                <img src="img-familia/esposa.webp">
+                <div class="descripcion-esposa">
+                    <h3>Ella es mi esposa Melinda Gates</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex excepturi esse, quia consectetur
+                        minus quas beatae dolore tempora enim, ullam fuga animi, assumenda vero fugit doloribus
+                        perspiciatis! Eveniet, unde odio!
+                        Recusandae rerum illum quae sequi molestiae sit optio pariatur accusantium nisi eveniet vel quam
+                        commodi voluptatibus exercitationem cupiditate eos consequatur nesciunt, officia, eius atque, ab
+                        voluptatum dignissimos minus. Id, officia.</p>
+                    <h3>Descripción</h3>
+                    <p>Melinda French Gates es una empresaria estadounidense. Se graduó en informática y economía en la
+                        Universidad Duke. Forma parte del directorio del diario The Washington Post.
+                    </p>
+                    <p>Gracias a su trabajo como codirectora de la Fundación Bill y Melinda Gates, se ha consolidado
+                        como "la mujer más poderosa en el mundo de la filantropía", de acuerdo a la revista
+                        Forbes.Melinda también es autora del libro The Moment of Lift ("No hay vuelta atrás"), publicado
+                        en 2019 y que habla sobre las "mujeres inspiradoras" que ha conocido en todo el mundo y sobre
+                        cómo se convirtió en defensora de los derechos de las mujeres.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="seccion-hijos">
+
+                <div class="descripcion-hijos">
+                    <h3>Ellos son mis hijos: Jennifer, Rory y Phoebe</h3>
+                    <p>Jennifer se ha graduado en Biología Humana en la universidad de Stanford y actualmente esta
+                        cursando Medicina en Nueva York. La joven combina su vida académica con su pasión por la
+                        equitación, disciplina en la que ha destacado en competencias nacionales.</p>
+                    <p>Por último, Phoebe Adele es la hija menor del matrimonio. A sus 18 años es una apasionada del
+                        ballet y ha estudiado en el American Ballet Theatre School. Al igual que su padre y sus
+                        hermanos, también estudió en el Lakeside School.</p>
+                    <p>Rory John es el único varón y quizá el más discreto de la familia. A sus 21 años vive en la
+                        residencia familiar en Seattle. Ha estudiado la misma carrera que su madre, Informática y
+                        Economía en la Duke University, una de las universidades privadas de mayor prestigio en Estados
+                        Unidos.</p>
+                </div>
+                <img src="img-familia/hijos.png">
+            </div>
+        </div>
+
+    </div>
+    <!-- Footer -->
+    <div class="container-fluid">
+        <div class="row p-5 bg-dark text-white">
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <p class="h3">Página Personal Bill Gates</p>
+                <p class="text secondary">Washington, United States.</p>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <p class="h5 mb-3">Enlaces</p>
+                <div class="mb-2">
+                    <a href="#" class="text-secondary text-decoration-none">Matrimonio e hijos</a>
+                </div>
+                <div class="mb-2">
+                    <a href="#" class="text-secondary text-decoration-none">Fortuna</a>
+                </div>
+                <div class="mb-2">
+                    <a href="#" class="text-secondary text-decoration-none">Premios y distinciones</a>
+                </div>
+                <div class="mb-2">
+                    <a href="#" class="text-secondary text-decoration-none">Cascade Investment</a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <p class="h5 mb-3">Empresas</p>
+                <div class="mb-2">
+                    <a href="#" class="text-secondary text-decoration-none">Microsoft</a>
+                </div>
+                <div class="mb-2">
+                    <a href="#" class="text-secondary text-decoration-none">Fundación Bill y Melinda Gates</a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <p class="h5 mb-3">Contacto</p>
+                <div class="mb-2">
+                    <a href="#" class="text-secondary text-decoration-none">Instagram</a>
+                </div>
+                <div class="mb-2">
+                    <a href="#" class="text-secondary text-decoration-none">Facebook</a>
+                </div>
+                <div class="mb-2">
+                    <a href="#" class="text-secondary text-decoration-none">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
