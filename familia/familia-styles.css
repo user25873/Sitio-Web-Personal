@@ -1,0 +1,54 @@
+/* Estilos barra de navegación */
+.nav-link:hover {
+    background-color: yellowgreen;
+    border-radius: 1rem;
+}
+
+.nav-item a {
+    background-color: #FFD966;
+    margin: 2px 3px;
+    padding: 7px 7px;
+    font-weight: 700;
+    border: 3px solid black;
+    box-shadow: 5px 5px black;
+}
+
+#barra-navegacion {
+    display:flex;
+    justify-content: space-evenly;
+    flex: 1;
+}
+
+#boton-busqueda {
+    background-color: yellowgreen;
+}
+
+.seccion-esposa, .seccion-hijos {
+    margin: 1rem 0;
+    display:flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color:bisque;
+}
+
+.seccion-esposa img {
+    width: 40%;
+    border-radius: 2rem;
+    margin-right: 2rem;
+}
+
+.descripcion-esposa {
+    text-align:justify;
+}
+
+.descripcion-hijos {
+    text-align: justify;
+}
+
+.seccion-hijos img {
+    width: 50%;
+    border-radius: 2rem;
+    margin-left: 1.5rem;
+}
