@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amigos</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="amigos-styles.css">
+</head>
+
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">Página Web Personal</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul id="barra-navegacion" class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-evenly">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Presentación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Familia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Amigos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Estudios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Formulario de Contacto</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button id="boton-busqueda" class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container bg-light">
+        <div class="row mt-3 pt-2">
+            <div class="col">
+                <div class="card text-bg-dark">
+                    <img src="img-amigos/amigos.jpg" class="card-img" alt="amigos">
+                    <div class="card-img-overlay">
+                        <h5 id="titulo-principal" class="card-title text-center">Amigos</h5>
+                        <p class="card-text text-center">En esta sección presentaré a mis mejores amigos</p>
+                        <p class="card-text text-center"><small>Actualizado hace 1 mes</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="presentacion-amigos">
+            <p>Estos son mis mejores amigos</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, minus
+                officiis.
+                Aut ea assumenda et esse culpa adipisci quia accusamus commodi optio, perspiciatis unde expedita minus
+                ad a
+                blanditiis. Velit?
+                Sapiente quasi et delectus, repudiandae nisi fugit. Doloribus minus eum nam ex quo et dolores voluptas
+                dolorum.
+                Natus saepe similique in consectetur nisi voluptatum cum? Amet commodi voluptatem magnam rerum?</p>
+        </div>
+
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card amigos-bill">
+                    <img src="img-amigos/warren.jpg" class="card-img-top" alt="Warren Buffet">
+                    <div class="card-body">
+                        <h5 class="card-title nombre-amigos">Warren Buffett</h5>
+                        <p class="card-text">Warren Edward Buffett es un inversor y empresario estadounidense. Es
+                            considerado uno de los más grandes inversores del mundo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card amigos-bill">
+                    <img src="img-amigos/elon.jpg" class="card-img-top" alt="Elon Musk">
+                    <div class="card-body">
+                        <h5 class="card-title nombre-amigos">Elon Musk</h5>
+                        <p class="card-text">Elon Reeve Musk, conocido como Elon Musk, es un empresario, inversionista y
+                            magnate sudafricano, canadiense y estadounidense.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 amigos-bill">
+                    <img src="img-amigos/jeff.jpg" class="card-img-top" alt="Jeff Bezos">
+                    <div class="card-body">
+                        <h5 class="card-title nombre-amigos">Jeff Bezos</h5>
+                        <p class="card-text">Jeffrey Preston Bezos es un empresario y magnate estadounidense, fundador,
+                            presidente ejecutivo de Amazon.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 amigos-bill">
+                    <img src="img-amigos/mark.jpg" class="card-img-top" alt="Mark Zuckerberg">
+                    <div class="card-body">
+                        <h5 class="card-title nombre-amigos">Mark Elliot</h5>
+                        <p class="card-text">Mark Elliot Zuckerberg es un programador y empresario estadounidense, uno
+                            de los creadores y fundadores de Facebook.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="text-center mt-3">Adivina La fortuna de Elon Musk</h3>
+        <div class="row mt-4">
+            <div class="col">
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Ingresa tu nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                    <label for="cantidad" class="form-label">Ingresa la cantidad de dinero en millones de
+                        dólares</label>
+                    <input type="number" class="form-control" id="cantidad" placeholder="123">
+                    <button type="button" class="btn btn-primary mt-3" onclick="calcularAdivinanza()">Verificar
+                        Resultado</button>
+                </div>
+
+            </div>
+            <div class="col">
+                <div class="mb-3">
+                    <p class="texto-formulario"><span id="adivina"></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <div class="container-fluid">
+        <div class="row p-5 bg-dark text-white">
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <p class="h3">Página Personal Bill Gates</p>
+                <p class="text secondary">Washington, United States.</p>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <p class="h5 mb-3">Enlaces</p>
+                <div class="mb-2">
+                    <a href="#" class="text-secondary text-decoration-none">Matrimonio e hijos</a>
+                </div>
+                <div class="mb-2">
+                    <a href="#" class="text-secondary text-decoration-none">Fortuna</a>
+                </div>
+                <div class="mb-2">
+                    <a href="#" class="text-secondary text-decoration-none">Premios y distinciones</a>
+                </div>
+                <div class="mb-2">
+                    <a href="#" class="text-secondary text-decoration-none">Cascade Investment</a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <p class="h5 mb-3">Empresas</p>
+                <div class="mb-2">
+                    <a href="#" class="text-secondary text-decoration-none">Microsoft</a>
+                </div>
+                <div class="mb-2">
+                    <a href="#" class="text-secondary text-decoration-none">Fundación Bill y Melinda Gates</a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-3">
+                <p class="h5 mb-3">Contacto</p>
+                <div class="mb-2">
+                    <a href="#" class="text-secondary text-decoration-none">Instagram</a>
+                </div>
+                <div class="mb-2">
+                    <a href="#" class="text-secondary text-decoration-none">Facebook</a>
+                </div>
+                <div class="mb-2">
+                    <a href="#" class="text-secondary text-decoration-none">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+    <script src="amigos-script.js"></script>
+</body>
+
+</html>
