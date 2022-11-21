@@ -2,6 +2,31 @@
 	box-sizing: border-box;
 }
 
+/* Estilos barra de navegación */
+.nav-link:hover {
+    background-color: yellowgreen;
+    border-radius: 1rem;
+}
+ 
+.nav-item a {
+    background-color: #FFD966;
+    margin: 2px 3px;
+    padding: 7px 7px;
+    font-weight: 700;
+    border: 3px solid black;
+    box-shadow: 5px 5px black;
+}
+ 
+#barra-navegacion {
+    display:flex;
+    justify-content: space-evenly;
+    flex: 1;
+}
+ 
+#boton-busqueda {
+    background-color: yellowgreen;
+}
+
 body {
 	font-family: 'Roboto', sans-serif;
 	background: #E5E5E5;
